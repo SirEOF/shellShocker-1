@@ -24,7 +24,7 @@ def Main():
 		response = br.open(url)
 		print response.read()
 		if command =="exit":
-			loop == 0
+			loop = 0
 			
 
 if __name__ == "__main__":
